@@ -12,7 +12,7 @@ public class A14MaxValue {
             
         else {      
             max=n2;
-}
+        }
         if(max<n3){
             max=n3;
         }
