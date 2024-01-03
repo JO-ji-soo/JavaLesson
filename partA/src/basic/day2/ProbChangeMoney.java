@@ -19,8 +19,8 @@ public class ProbChangeMoney {
         System.out.println("팔때1엔="+wonToYenRate+"엔");
 
         System.out.println(":::원화를 엔화로 환전하기:::");
-        System.out.println("환전할 원화는"+myWon+"원 입니다");
-        System.out.println("원화를 엔화로 바꿀 때"+toYen+"원 입니다");
+        System.out.println("환전할 원화는" + myWon + "원 입니다");
+        System.out.println("원화를 엔화로 바꿀 때" + toYen + "원 입니다");
 
         System.out.println(":::엔화를 원화로 환전할 경우:::");
         cost=98760;

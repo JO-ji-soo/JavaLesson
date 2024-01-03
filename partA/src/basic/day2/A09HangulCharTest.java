@@ -17,7 +17,7 @@ public class A09HangulCharTest {
      //**이 시점에서의 start는? **
      System.out.println("\nstart=???"+start); //
 
-     System.out.println("\n\n\nstart~end까지 문자의 개수 ="+ (int));
+     //System.out.println("\n\n\nstart~end까지 문자의 개수 ="+int);//
     
         System.out.print("'나'~'낟'까지 문자의 개수="+(codeNet-codeNa+1));
         System.out.print(codeNet-codeNa+1);

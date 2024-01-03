@@ -3,28 +3,30 @@ package basic.day3;
 public class HomeCharTypeJJS {
     public static void main(String[] args) {
         
-        String str = ("Hello Java Hi Linux~~~~~~");
-        int UpperCount=0;
-        int lowerCount=0;
-        int numberCount=0;
-        int symbolCount=0;
-        for (int i = 0; i < str.length(); i++) {
-            char temp = str.charAt(i);
-            
-        }
-        System.out.println("------------------------------");
-        System.out.println("문자열 :" + str + "\n" +
-        "문자 종류 : 대문자" + UpperCount +"개,  소문자 "+ lowerCount +"개, 숫자 "+ numberCount +"개, 기호 "+ symbolCount +"개");
+        String message = "Hello* Java Hi* Linux333~~~";
+        int UpperCount=0; //대문자의 갯수  
+        int lowerCount=0; //소문자의 갯수  
+        int numberCount=0; //숫자의 갯수 
+        int symbolCount=0; //기호의 갯수 
 
-       /* 
-       for (int i = 0; i < message.length(); i++) {
+        for (int i = 0; i < message.length(); i++){
             char temp = message.charAt(i);
-            if(temp=='o') count++;
-            
-            65~90
+            if (temp>='A'&&temp<='Z') UpperCount++;
+            else if (temp<='z'&&temp>='a') lowerCount++; 
+            else if (temp<='9'&&temp>='0') numberCount++;
+            else symbolCount++;
         }
-        System.out.println("o의 개수: "+ count);
-       */ 
+        /* 
+        String str = "Hello* Java Hi* Linux~~~";
+        System.out.println("str이 대문자인가 ? "+(str>='A' && str<='Z'));
+        System.out.println("str이 소문자인가 ? "+(str>='a' && str<='z'));
+        System.out.println("str이 숫자인가 ? "+(str>='0' && str<='9'));
+        System.out.println("str이 숫자가 아닌가 ? "+!(str>='0' && str<='9'));
+        */
+
+        System.out.println("------------------------------");
+        System.out.println("문자열 :" + message + "\n" +
+        "문자 종류 : 대문자" + UpperCount +"개,  소문자 "+ lowerCount +"개, 숫자 "+ numberCount +"개, 기호 "+ symbolCount +"개");
         
-}
-}
+        }
+    }

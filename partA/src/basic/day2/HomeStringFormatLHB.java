@@ -1,6 +1,6 @@
 package basic.day2;
 
-public class HomeStringFormat {
+public class HomeStringFormatLHB {
     public static void main(String[] args) {
         int start = 10;
 

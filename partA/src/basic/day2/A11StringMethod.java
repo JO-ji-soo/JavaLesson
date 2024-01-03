@@ -27,8 +27,8 @@ public class A11StringMethod {
         System.out.println("message.startsWith(\"Hello\") :"+message.startsWith("Hello"));
         System.out.println("message.endsWith(\"Hello\") : "+message.endsWith("~"));
         //indexOF는 문자열안에서 원하는 단어의 위치를 찾기 -> 시작위치 index값을 리턴, 단어가 없으면 -1을 리턴
-         System.out.println("message.indexOF(\"World\") :"+message.indexOf("World");
-         System.out.println("message.indexOF(\"world\") :"+message.indexOf("world");
+         System.out.println("message.indexOF(\"World\") :"+message.indexOf("World"));
+         System.out.println("message.indexOF(\"world\") :"+message.indexOf("world"));
 
 
         //4. 메소드 괄호안에 정수 2개를 쓰는 것 : substring (문자열 부분 추출: 시작인덱스,마지막인덱스값을 인자로 주기)
@@ -47,8 +47,8 @@ public class A11StringMethod {
          // 1)메소드의 리턴타입에 따라 결과를 저장할 변수를 일치하는 형식으로 선언하기
          String temp = message. toUpperCase().substring(3,5); 
          //                             2) 문자열리턴값으로 또 메소드 실행할 수 있음
-         System.out.println("message.toUpperCase().substring(3,5):"+message.toUppercase().substring(0))
-         int len=message.length();
+         System.out.println("message.toUpperCase().substring(3,5):"+message.toUpperCase().substring(0));
+         int length=message.length();
                  message.charAt(5);
 
          // ****** 리턴값 형식을 기준으로 정리하기 ******
