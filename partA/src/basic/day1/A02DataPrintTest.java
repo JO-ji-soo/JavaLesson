@@ -34,6 +34,7 @@ public class A02DataPrintTest {
       System.out.println("감량된 몸무게 : " + weight);
       weight -= 1.3;         //weight = weight - 1.3 수식을 줄여서 쓰는 형식
       System.out.println("감량된 몸무게 : " + weight);
+      
       //예, 7년동안 직장생활을 열심히 하면 나이가 몇살이 되나요?
       age = age + 7;
       System.out.println("7년 후 나의 나이는 : " + age);
