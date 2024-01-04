@@ -14,7 +14,14 @@ public class HomeCharTypeJJS {
             if (temp>='A'&&temp<='Z') UpperCount++;
             else if (temp<='z'&&temp>='a') lowerCount++; 
             else if (temp<='9'&&temp>='0') numberCount++;
+            //키보드로 찍는 문자들 중 다국어 문자가 아닌 경우만 가능
             else symbolCount++;
+            // 만약에 한글도 있을 수 있다면 
+            // else if((temp>=32%&&temp<=47)
+            //       ||(temp>=':'&&temp<=@)
+            //       ||(temp>=':'&&temp<=@)
+            //       ||(temp>='{}'&&temp<='~''))
+            // symbloCount==;
         }
         /* 
         String str = "Hello* Java Hi* Linux~~~";

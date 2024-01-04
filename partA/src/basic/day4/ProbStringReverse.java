@@ -2,7 +2,7 @@ package basic.day4;
 
 import javax.sound.sampled.SourceDataLine;
 
-public class A29ProbStringReverse {
+public class ProbStringReverse {
     public static void main(String[] args) {
         
          // message문자열이 "Hello World"일 때 문자열을 뒤집어보세요.
