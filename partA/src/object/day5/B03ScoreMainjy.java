@@ -6,6 +6,7 @@ import java.util.Scanner;
 //1학년 2명(모모,다현) 3과목 2학년 2명(나연, 쯔위) 5과목
 public class B03ScoreMainjy {
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
         Scorejy scoreCal = new Scorejy();
         int[] tempArray= new int[5];

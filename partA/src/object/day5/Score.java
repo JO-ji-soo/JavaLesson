@@ -10,16 +10,31 @@ public class Score {
     //getter
     public String getName(){
         return name;
-    }
-
-    public int getGrade(){
+        }
+        public int getGrade(){
         return grade;
-    }
-
-    //setter
+        }
+        public int[] getJumsues(){
+        return jumsues;
+        }
     
 
+    //setter
+
+    public void setName(String name){
+        name = name;
+    }
+    public void setGrade(int grade){
+        grade = grade;
+    }
+    public void setJumsues(int[] fj){
+        jumsues = fj;
+    }
+    
     //점수의 합계를 리턴하는 sum()메소드
+    public int sum(){
+        int sum = 0;
+    }
 
     //점수의 평균 double 리턴하는 average() 메소드
 

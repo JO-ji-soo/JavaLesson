@@ -1,13 +1,14 @@
 package object.day5;
 
 public class Scorejy {
+    //인스턴스 필드
     private String name;//name
     private int grade;  //grade
     private int[] jumsues;
 
 
-
-//getter
+    //인스턴스 메소드 : 인스턴스 필드를 사용하는 처리를 합니다.
+    //getter
     public String getName(){
     return name;
     }
@@ -17,6 +18,7 @@ public class Scorejy {
     public int[] getJumsues(){
     return jumsues;
     }
+
     //setter
     public void setName(String fN){
         name = fN;
@@ -27,6 +29,7 @@ public class Scorejy {
     public void setJumsues(int[] fS){
         jumsues = fS;
     }
+
 
 
 //점수 합계 리턴

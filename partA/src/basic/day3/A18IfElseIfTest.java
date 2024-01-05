@@ -59,11 +59,7 @@ public class A18IfElseIfTest {
 
 	    System.out.println("점수 ="+ jumsu+ "학점은"+grade+"입니다");
 
-
-
-
-		
-	}
+		}
 	
 }
 

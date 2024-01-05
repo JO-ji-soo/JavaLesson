@@ -15,6 +15,7 @@ public class A20BankExam {
 
     //세자리마다 컴마 찍기 : 아직 배운 진도가 아니지만 일단은 사용하기
     DecimalFormat df = new DecimalFormat("금 #,### 원");
+    
     while (run) {
         System.out.println("1:예금 2:출금 3:잔액 4:종료");
         System.out.print("메뉴선택. >>>>");
