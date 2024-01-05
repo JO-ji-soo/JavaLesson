@@ -20,13 +20,13 @@ public class ProbChangeMoney {
 
         System.out.println(":::원화를 엔화로 환전하기:::");
         System.out.println("환전할 원화는" + myWon + "원 입니다");
-        System.out.println("원화를 엔화로 바꿀 때" + toYen + "원 입니다");
+        //System.out.println("원화를 엔화로 바꿀 때" + toYen + "원 입니다");
 
         System.out.println(":::엔화를 원화로 환전할 경우:::");
         cost=98760;
         System.out.println("일본에서 사용한 금액"+cost+"엔 입니다");
-        myYen = (int)(toYen-cost);
-        System.out.println("남은 엔화는 얼마입니까?"+myYen+"엔 입니다");
+        //myYen = (int)(toYen-cost);
+       // System.out.println("남은 엔화는 얼마입니까?"+myYen+"엔 입니다");
         
 
 

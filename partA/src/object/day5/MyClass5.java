@@ -1,4 +1,4 @@
-package basic.day6;
+package object.day5;
 
 public class MyClass5 {
 

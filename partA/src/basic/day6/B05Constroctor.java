@@ -1,9 +1,8 @@
 package basic.day6;
 
 import java.util.Arrays;
-
 import object.day6.MyClass4;
-import object.day6.MyClass5;
+import object.day5.MyClass5;
 
 public class B05Constroctor {
     
@@ -36,7 +35,7 @@ public class B05Constroctor {
 
         //기본생성자와 satter 가 없는  Myclass5객체 생성합니다.
         MyClass5 my5 = new MyClass5("language", 1111, new double[3]);
-        MyClass5 my6 = new MyClass5(); //***오류. 기본생성자가 없는 클래스입니다.
+        // MyClass5 my6 = new MyClass5(); //***오류. 기본생성자가 없는 클래스입니다.
         System.out.println("MyClass5 객체 확인");
         System.out.println("\tmy5 field1:"+my5.getField1());
         System.out.println("\tmy5 field2:"+my5.getField2());

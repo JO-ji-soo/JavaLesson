@@ -47,7 +47,7 @@ public class CartMain {
         // System.out.println(momos_cart.getUserid()+"님 이 선택하신 상품 합계 :" +momos_cart.total_Money(select));
         }
 
-        momos_cart.total_Money(select);
+        //momos_cart.total_Money(select);
         System.out.println(momos_cart.getUserid()
                             +"님이 선택하신 상품합계 :"+momos_cart.getTotal_Money());
 
@@ -58,7 +58,7 @@ public class CartMain {
         //setter 메소드가 여기ㅇ서는 필요없습니다
         //total money 메소드가 대신 값을 계산해서 저장할 것입니다.]
 
-        System.out.println(momos_cart.getUserid()+"님 이 선택하신 상품 합계 :" +momos_cart.total_Money(select));
+        //System.out.println(momos_cart.getUserid()+"님 이 선택하신 상품 합계 :" +momos_cart.total_Money(select));
 
     }
     

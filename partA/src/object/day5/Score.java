@@ -31,10 +31,11 @@ public class Score {
         jumsues = fj;
     }
     
+    /* 
     //점수의 합계를 리턴하는 sum()메소드
     public int sum(){
         int sum = 0;
-    }
+    }*/
 
     //점수의 평균 double 리턴하는 average() 메소드
 

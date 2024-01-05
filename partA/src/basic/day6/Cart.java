@@ -16,6 +16,8 @@ public class Cart {
         sum+=prices[temp];
     }
      this.total_Money=sum;
+    }
+       
 
      /*public void setTotal_Money(int total_Money) {
         this.total_Money = total_Money;

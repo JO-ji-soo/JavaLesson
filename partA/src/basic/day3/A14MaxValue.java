@@ -6,7 +6,7 @@ public class A14MaxValue {
         int n2 = 24;
         int n3 = 30;
 
-        if(n1 > n2) {
+        /*if(n1 > n2) {
             max=n1;
         }
             
@@ -26,7 +26,7 @@ public class A14MaxValue {
         max = (n1>n2? n1:n2);
         max = )max<n3? n3:max);
         System.out.println("n1="+n1 +",n2="+n2+",n3="+n3);
-        System.out.println("최대값 max="+max);
+        System.out.println("최대값 max="+max); */
 
 
 

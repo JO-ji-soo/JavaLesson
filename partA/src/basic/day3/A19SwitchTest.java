@@ -13,8 +13,6 @@ public class A19SwitchTest {
 
 		int menu =3;
 		Scanner sc =new Scanner(System.in); //system.in은 표준입력
-
-		boolean run=true;
 		
 		menu=sc.nextInt();   //키보드 입력을 위한 커서가 보이면 여러분들이 값을 입력해 주세요.
         boolean run = true;  // while 에 쓰이는 조건 변수
