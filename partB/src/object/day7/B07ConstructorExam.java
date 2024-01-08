@@ -2,21 +2,20 @@ package object.day7;
 /*
  * 자바 클래스의 생성자로 메소드 오버로딩 알아보기
  *     ㄴString 클래스 
+ * Scanner
  * */
-
 import java.util.Scanner;
 
 public class B07ConstructorExam {
   public static void main(String[] args) {
-
     //문자열 리터럴을 message 변수로 참조
     String message = "Hello~";
     String temp = "Hello~";
-    //1) 메소드 오버로딩 : 메소드 이름과 리턴타입(생성자는 없음)이 같으면서 인자의 개수가 형식이 다른 정의
-
+    
     //문자열 객체 생성하기
-    String str1 = new String();    //생성자 인자가 없음
-    String str2 = new String("Hello~"); //생성자 인자가 문자열 리터럴 (1개)
+    //1) 메소드 오버로딩 : 메소드 이름이 같으면서 리턴타입과 인자의 개수가 형식을 다르게 정의합니다.
+    String str1 = new String();                                    //생성자 인자가 없음
+    String str2 = new String("Hello~");                   //생성자 인자가 문자열 리터럴 (1개)
     String str3 = new String(new char[]{'h','e','l','l','o','~'}); //생성자 인자가 문자 배열
     
 
@@ -36,7 +35,8 @@ public class B07ConstructorExam {
     System.out.println("message.equals(str2)?" +message.equals(str2)); //true
 
     //다른 클래스 생성자
-    Scanner sc = new Scanner(System.in); // InputStream 클래스로 만들어진 객체 System.in을 생성자 인자로 하여 객체를 생성
+    Scanner sc = new Scanner(System.in); 
+    //                    ㄴ InputStream 클래스로 만들어진 객체 System.in을 생성자 인자로 하여 객체를 생성
                                          // System.in은 키보드 입력을 원초적인 방식으로 처리하기 때문에
                                          // 키보드 입력값을 다양하게 처리할 수 있는 Scanner 클래스 사용
     int num = sc.nextInt();              // 입력값을 정수 형식으로 변환
@@ -51,10 +51,12 @@ public class B07ConstructorExam {
     System.out.println("위의 입력 테스트에서 nextInt 또는 nextDouble은 엔터처리를 안하므로 다음에 나오는 nextLine으로 자동 저장");
     System.out.println("그래서 nextInt 또는 nextDouble 대신에 다음 방법으로 하기~~~~~~~~~~~~~~");
     System.out.println("정수 입력 >>>>");
-    temp = sc.nextLine();
+    temp = sc.nextLine();                 //숫자만 입력하세요.
     num = Integer.parseInt(temp);         //문자열을 int로 변환하는 메소드 사용.
+    // num = Integer.parseInt(sc.nextLine); -> 바로 사용할 수 있음. temp 선언 따로 안해도 됨.
+
     System.out.println("실수 입력 >>>>");
-    temp = sc.nextLine();
+    temp = sc.nextLine();                 //숫자와 .만 입력하세요.
     pi = Double.parseDouble(temp);        //문자열을 double로 변환하는 메소드 사용.
     System.out.println("문자열 입력 >>>>");
     name = sc.nextLine();
