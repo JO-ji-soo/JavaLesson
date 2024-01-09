@@ -60,7 +60,17 @@ public class Triangle extends Shape{  	//extenda Shape
 	public void printAngle() {
 		System.out.println("삼각형 각도 : " + getAngle());
 	}
+	@Override
+	public String toString() {
+	  return super.toString() + "[각도 =" +this.angle+"]";
+	}
 }
+
+/*클래스의 상속 -자바에서 제공하는 클래스들의 상속관계를 이해하기 위함. 우리가 직접 만드는 것은 몇가지 기능정도
+ *  ㄴ 자세하게(구체화된) 클래스를 만든다 면 삼각형,정사각형,직사각형,사다리꼴...
+ *  ㄴ 구체화될 때 shape 클래스를 상속받는다. 부모클래스 shape은 모든 도형들의 공통적인 필드와 메소드를 정의.
+ * 
+ */
 
 
 

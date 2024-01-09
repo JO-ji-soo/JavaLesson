@@ -64,6 +64,17 @@ public class B12PolymorphismExam {
       if(temp instanceof Diamond)
             temp.draw();
       }
+
+      //upcasting
+      Shape sh = new Diamond();
+
+      //downcasting - sh의 실제 객체가 다운 캐스팅하려는 타입인지 검사 필수. instanceod연산으로 검사하기.
+      // (아래예시)    sh의 실제 객체가 아닌 것(Triangle,Square)을 diamond로 캐스팅하면 오류.
+      Diamond diamond = (Diamond)sh;
+
+      //자식객체의 인스턴스 메소드 iAmDiamond 는 반드시 다운 캐스팅을 해야 실행 가능
+      diamond.iAmDiamond();
+
     }
   }
 
