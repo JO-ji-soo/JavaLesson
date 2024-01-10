@@ -1,6 +1,7 @@
 package object.beable;
 
 public interface BeAble { //할 수 있는
+
 	String beAble(); 
 }
 
